@@ -1,0 +1,84 @@
+@import "~tailwindcss/base";
+@import "~tailwindcss/components";
+@import "~tailwindcss/utilities";
+
+$primary-color:#009335;
+$color-white: #fff;
+$second-color: #24592c;
+$third-color: #38a169;
+$bg-color-blue: #edf2f7;
+.bg-primary{
+    background: $primary-color;
+}
+.bg-second-color{
+    background-color: $second-color;
+}
+.bg-third-color{
+    background: $third-color;
+}
+.bg-blue-form{
+    background-color: $bg-color-blue;
+}
+.menu-list li a{
+    color: $color-white;
+}
+.primary-menu-item{
+    color: $color-white;
+    border-left: 0.063rem solid $color-white;
+    padding-top: 1.25rem;
+    padding-bottom: 1.313rem;
+    padding-left: 0.438rem;
+    padding-right: 0.438rem;
+}
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+.tab, .tab-item{
+    border-bottom: 0.063rem solid $primary-color;
+    padding: 0.625rem;
+}
+.tab.active{
+    border-top: 0.063rem solid $primary-color;
+    padding: 0.625rem;
+    border-left: 0.063rem solid $primary-color;
+    border-right: 0.063rem solid $primary-color;
+    border-top-right-radius: 0.313rem;
+    border-top-left-radius: 0.313rem;
+    border-bottom: none;
+}
+.tab-item{
+    width: 25%;
+    font-size: 0.563rem;
+}
+.tab-item.active{
+    background-color: $second-color;
+    color:$color-white;
+}
+#panels ul{
+    list-style: circle;
+    padding: 0.938rem;
+}
+.icon-color-primary{
+    color:$primary-color;
+}
+.add-btn-cart{
+    width: 17.5rem;
+}
+.btn-cta{
+    width: 10rem;
+}
+.btn-contact-country{
+    background-color: $second-color;
+}
+.footer{
+    background-color: $primary-color;
+    color:white;
+}
+
+.footer a{
+    color:$color-white;
+}
